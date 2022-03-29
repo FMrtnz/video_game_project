@@ -6,7 +6,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 
 # Set a title to the page
-st.title('WCS Challenge : Cars analyse')
+st.title('WCS Challenge : Video Game analyse')
 
 # Set links to navigate in the page
 # links = ["<a href='#Logistic'>Logistic</a>",\
