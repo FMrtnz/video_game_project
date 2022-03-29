@@ -8,25 +8,12 @@ from matplotlib import pyplot as plt
 # Set a title to the page
 st.title('WCS Challenge : Video Game analyse')
 
-# Set links to navigate in the page
-# links = ["<a href='#Logistic'>Logistic</a>",\
-#          "<a href='#Finances'>Finances </a>",\
-#          #"<a href='#finances-2'>Finances 2</a>",\
-#          "<a href='#Sales'>Sales</a>",\
-#          "<a href='#Human-Resources'>Human Resources</a>"]
-# for l in links:
-#     st.sidebar.write(
-#         l,
-#         unsafe_allow_html=True
-#     )
-
 # Get the CSV link
 link = "https://raw.githubusercontent.com/FMrtnz/video_game_project/main/vgsales.csv"
 # READ the CSV link with pandas then display
 df_games = pd.read_csv(link)
 
 st.subheader("Table Video games")
-
 df_games
 
 # st.write is like a print function of python tyo display results
